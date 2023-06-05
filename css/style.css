@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.columna {
+    background-color: #ffff;
+    padding: 2.5em;
+    border-radius: 6px;
+    min-height: 100vh;
+    padding-top: 5em;
+}
+
+.col input {
+    margin-bottom: 0.7em;
+    display: block;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.col label {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.5em;
+    color: #f59b90;
+    font-weight: 600;
+}
+
+.form-control {
+    transition: box-shadow 0.3s;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+    box-shadow: 0 0 0 0.25rem #fa92868e;
+    /* Establece el box-shadow inicial */
+    animation: glow 1.5s infinite;
+}
+
+.parrafo {
+    color: #f59b90;
+    font-weight: 500;
+}
+
+.parrafo2 {
+    display: flex;
+    justify-content: flex-end;
+    color: #8B8E98;
+    font-weight: 400;
+    font-size: 0.85em;
+    margin-bottom: 2em;
+}
+
+.button {
+    width: 100%;
+    background-color: #ec5544;
+    transition: transform 0.3s, background-color 0.3s;
+    border: none;
+    padding: 0.4em;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background-color: #f2796b;
+    transform: scale(1.02);
+}
+
+.separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30¿px;
+    color: #8B8E98;
+    margin-bottom: 1em;
+}
+
+.separator .line {
+    display: block;
+    width: 30%;
+    height: 1px;
+    border: 0;
+    background-color: #e8e8e8;
+}
+
+.col button {
+    margin-bottom: 1em;
+}
+
+.div1 {
+    margin-top: 1em;
+}
+
+.card-text {
+    font-size: 0.6em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-size: 0.7em;
+    font-weight: 500;
+    color: black;
+}

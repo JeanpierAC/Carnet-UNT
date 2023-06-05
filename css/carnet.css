@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.columna1 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: black;
+    border-radius: 6px;
+    min-height: 100vh;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.parrafo {
+    color: #f59b90;
+    font-weight: 500;
+}
+
+.button {
+    width: 100%;
+    background-color: #4479ec;
+    transition: transform 0.3s, background-color 0.3s;
+    border: none;
+    padding: 0.4em;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.button:hover {
+    background-color: #4479ecc6;
+    transform: scale(1.02);
+}
+
+.div1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card-text {
+    font-size: 0.6em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-size: 0.7em;
+    font-weight: 500;
+    color: black;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group .form-label {
+    width: 100px;
+    /* Ajusta el ancho del label según tus necesidades */
+    margin-right: 10px;
+    /* Ajusta el margen derecho según tus necesidades */
+}
+
+.input-group-text {
+    font-size: 0.65em;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
+
+.form-control {
+    font-size: 0.65em;
+    font-weight: 400;
+    border: none;
+    width: 100%;
+    /* Ajusta el ancho del input al 100% del contenedor */
+    white-space: normal;
+    /* Permite que el texto se ajuste automáticamente en varias líneas */
+}
+
+.column {
+    margin-top: 1.2em;
+    font-size: 1em;
+}
+
+.card {
+    background-image: linear-gradient(180deg, #9b565b6b 0, #c85e66d4 5%, #f47368 15.33%, #ee7575 50%, #f47368 66.67%, #e35660d9 94.33%, #d1465099 100%);
+    --bs-card-title-spacer-y: 0rem;
+}
+
+.texto-efecto1 {
+    display: flex;
+    margin-left: 2.5em;
+    font-size: 0.8em;
+}
+
+.texto-efecto2 {
+    align-items: center;
+    margin-left: 3em;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    /* Color del texto */
+    text-shadow: 2px 2px #ff0000;
+    /* Desplazamiento y color del sombreado */
+}
+
+.texto-efecto3 {
+    display: flex;
+    margin-left: 2em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    /* Color del texto */
+    text-shadow: 2px 2px #0501ff;
+    /* Desplazamiento y color del sombreado */
+}
+
+.texto-efecto4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5em;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgba(45, 43, 43, 0.798);
+    /* Color del texto */
+    text-shadow: 2px 2px #2b2b2ba7;
+    /* Desplazamiento y color del sombreado */
+}
+
+.column2 {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 1.2em;
+    padding-right: 2em;
+    padding-left: 1.5em;
+    margin-right: 0.69em;
+    align-items: center;
+    line-height: 0.2em;
+    border-radius: 6px;
+}
+
+.title1 {
+    font-size: 0.8em;
+    color: black;
+    font-weight: 600;
+}
+
+.letra {
+    font-size: 0.8em;
+    color: #f4371e;
+    font-weight: 600;
+}
+
+.input-placeholder::placeholder {
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.bi {
+    color: rgb(0, 246, 0);
+}
+
+.column1 .img-carnet {
+    max-height: 100px;
+    /* Ajusta el valor de altura según tus necesidades */
+    width: auto;
+}
+
+@media (max-width: 767px) {
+    .card-title {
+        font-size: 1em;
+    }
+
+    .card {
+        font-size: 70%;
+    }
+
+    .columna1 {
+        padding: 0.5em;
+    }
+
+    .title1 {
+        font-size: 0.7em;
+    }
+
+    .texto-efecto1 {
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+
+    .texto-efecto2 {
+        margin-left: 2em;
+        font-size: 0.9em;
+    }
+
+    .texto-efecto3 {
+        margin-left: 1em;
+        font-size: 0.8em;
+    }
+
+    .texto-efecto4 {
+        margin-right: 2em;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-title {
+        font-size: 1.2em;
+    }
+
+    .card {
+        font-size: 80%;
+    }
+
+    .columna1 {
+        padding: 1em;
+    }
+
+    .title1 {
+        font-size: 0.9em;
+    }
+
+    .texto-efecto1 {
+        margin-left: 1.5em;
+        font-size: 0.9em;
+    }
+
+    .texto-efecto2 {
+        margin-left: 2.5em;
+        font-size: 1.1em;
+    }
+
+    .texto-efecto3 {
+        margin-left: 1.5em;
+        font-size: 1em;
+    }
+
+    .texto-efecto4 {
+        margin-right: 3em;
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card-title {
+        font-size: 1.5em;
+    }
+
+    .card {
+        font-size: initial;
+    }
+
+    .columna1 {
+        padding: 1.5em;
+    }
+
+    .title1 {
+        font-size: 1em;
+    }
+
+    .texto-efecto1 {
+        margin-left: 2.5em;
+        font-size: 1em;
+    }
+
+    .texto-efecto2 {
+        margin-left: 3em;
+        font-size: 1.2em;
+    }
+
+    .texto-efecto3 {
+        margin-left: 2em;
+        font-size: 1.1em;
+    }
+
+    .texto-efecto4 {
+        margin-right: 5em;
+        font-size: 1.3em;
+    }
+}
